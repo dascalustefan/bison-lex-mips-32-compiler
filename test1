@@ -1,0 +1,12 @@
+program exemplu
+begin
+float crow=923;
+int mane=1;
+crow = mane;
+print "\n";
+print crow;
+crow=crow/8;
+print "\n";
+print crow;
+print "\n";
+end

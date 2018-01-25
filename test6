@@ -1,0 +1,20 @@
+program Exemplul_meu
+begin
+int a= 0;
+int e = 0;
+boolean a=true;
+print a;
+repeat
+begin
+a=0;
+repeat
+begin
+print a;
+a=a+1;
+until(a==5)
+e=e+1;
+end
+until (e==3);
+print m;
+end
+end

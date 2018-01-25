@@ -1,0 +1,18 @@
+program Exemplul_meu
+begin
+int a=0;
+int e=0;
+repeat
+begin
+e=0;
+repeat
+begin
+print "*";
+e=e+1;
+end
+until (e==3);
+print "\n";
+a=a+1;
+end
+until (a==5);
+end

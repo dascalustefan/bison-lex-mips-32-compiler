@@ -1,0 +1,27 @@
+program Exemplul_meu
+begin
+int m = 34;
+int n = 17;
+boolean a=true;
+print a;
+if(m == n) then
+begin
+print m;
+end
+else
+begin
+repeat
+begin
+if(a) then
+begin
+m = m-n;
+end
+else
+begin
+n = n-m;
+end
+end
+until (m!=n);
+print m;
+end
+end

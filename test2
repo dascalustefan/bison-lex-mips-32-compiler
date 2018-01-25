@@ -1,0 +1,10 @@
+program exemplu
+begin
+float crow=923+(234*333+(231/22+(1+11)));
+print "\n";
+print crow;
+crow=crow/8;
+print "\n";
+print crow;
+print "\n";
+end
